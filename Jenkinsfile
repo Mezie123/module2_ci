@@ -4,7 +4,7 @@ pipeline{
   stages{
     stage('git-clone'){
       steps{
-         checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'git-id', url: 'https://github.com/etechDevops/module2_ci']]])
+         checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'd7d508c4-91de-464e-a422-816cd6e01563', url: 'https://github.com/Mezie123/module2_ci']]])
       }
     }
     stage('etech-hello'){
