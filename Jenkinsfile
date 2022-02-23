@@ -57,3 +57,4 @@ Artifactory build:
         archive 'target/*.jar'
       }
     }
+
