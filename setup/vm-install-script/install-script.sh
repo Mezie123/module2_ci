@@ -76,7 +76,7 @@ sudo apt install -y jenkins
 systemctl daemon-reload
 systemctl enable jenkins
 sudo systemctl start jenkins
-#sudo systemctl status jenkins
+sudo systemctl status jenkins
 sudo usermod -a -G docker jenkins
 echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
